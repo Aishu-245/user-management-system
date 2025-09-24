@@ -64,12 +64,12 @@ A comprehensive web application for managing user data with full CRUD operations
 - *Error Boundary Pattern*: Comprehensive error handling
 
 ## 📁 Project Structure
-
+```
 
 user-management-system/
-├── index.html                 # Main HTML file (Entry point)
+├── index.html                # Main HTML file (Entry point)
 │
-├── styles/                    # Stylesheets directory
+├── styles/                   # Stylesheets directory
 │   ├── main.css              # Core styles (layout, components, theme)
 │   └── responsive.css        # Mobile/tablet responsive styles
 │
@@ -81,13 +81,13 @@ user-management-system/
 │   ├── userService.js        # User data operations & business logic
 │   ├── pagination.js         # Pagination functionality
 │   ├── filtering.js          # Search & filtering service
-│   └── app.js               # Main application controller & initialization
+│   └── app.js                # Main application controller & initialization
 │
 ├── README.md                 # Project documentation (this file)
 │
 └── .github/                  # GitHub-specific files
     └── copilot-instructions.md # Development workflow instructions
-
+```
 
 ### File Descriptions
 
@@ -109,7 +109,7 @@ user-management-system/
 - *app.js*: Main application controller coordinating all services and handling initialization
 
 ### Module Dependencies
-
+```
 app.js (Main Controller)
 ├── userService.js (Data Management)
 ├── paginationService.js (Pagination)
@@ -118,7 +118,7 @@ app.js (Main Controller)
 ├── validationService.js (Form Validation)
 ├── apiService.js (HTTP Requests)
 └── config.js (Configuration)
-
+```
 
 ## 🚀 Getting Started
 
@@ -724,5 +724,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - Minimal external dependencies
 
 ---
+
 
 For questions or support, please open an issue in the repository.
